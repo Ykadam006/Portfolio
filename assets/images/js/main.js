@@ -92,7 +92,7 @@ fetch('assets/projects.json')
             }
             projects.forEach(project => {
                 const projectCard = document.createElement('div');
-                projectCard.className = 'bg-white shadow-md rounded-lg p-6 flex flex-col items-center text-center hover:bg-[#7CA982] transition duration-300';
+                projectCard.className = 'bg-white shadow-md rounded-lg p-6 flex flex-col items-center text-center hover:bg-[#7CA982] transition duration-300 h-80'; // Fixed height for uniformity
                 projectCard.innerHTML = `
                     <i class="${project.icon} text-4xl mb-4 text-[#7CA982] hover:text-white transition"></i>
                     <h3 class="text-xl font-semibold text-[#243E36] hover:text-white transition">${project.title}</h3>

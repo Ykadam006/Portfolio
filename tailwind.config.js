@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-// tailwind.config.js
+
 module.exports = {
   content: ["./*.html", "./assets/js/**/*.js"],
   theme: {
@@ -13,5 +13,6 @@ module.exports = {
   },
   plugins: [],
 };
+
 
 
