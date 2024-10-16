@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Yogesh Kadam</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <link href="dist/output.css" rel="stylesheet">
+
+    
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+<body class="bg-[#F1F7ED] font-poppins">
+    <div class="container mx-auto relative">
+        <!-- Header -->
+        <nav id="header" class="fixed top-0 left-0 w-full bg-[#F1F7ED] shadow-md transition-all duration-300 z-50">
+            <div class="flex justify-between items-center h-24 px-8">
+                <!-- Logo -->
+                <div class="relative">
+                    <p class="text-2xl font-semibold text-[#7CA982]">Yogesh</p>
+                    <span class="absolute -top-4 -right-5 text-5xl text-[#243E36]">.</span>
+                </div>
+                
+                <!-- Navigation Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Home</a>
+                    <a href="#about" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">About</a>
+                    <a href="#projects" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Projects</a>
+                    <a href="#contact" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Contact</a>
+                </div>
+                
+                <!-- Download CV Button -->
+                <div class="hidden md:block">
+                    <a href="assets/Yogesh_Kadam_CV.pdf" download class="btn bg-[#7CA982] text-white px-4 py-2 rounded-lg flex items-center hover:bg-[#243E36] transition">
+                        Download CV <i class="uil uil-file-alt ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-3xl text-[#243E36] focus:outline-none">
+                        <i class="uil uil-bars"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden flex-col items-center space-y-6 bg-[#F1F7ED] shadow-md py-6">
+                <a href="#home" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Home</a>
+                <a href="#about" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">About</a>
+                <a href="#projects" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Projects</a>
+                <a href="#contact" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Contact</a>
+                <a href="assets/Yogesh_Kadam_CV.pdf" download class="btn bg-[#7CA982] text-white px-4 py-2 rounded-lg flex items-center hover:bg-[#243E36] transition">
+                    Download CV <i class="uil uil-file-alt ml-2"></i>
+                </a>
+            </div>
+        </nav>
+        
+        <!-- Main Content -->
+        <main class="pt-24">
+            <!-- Featured Section -->
+            <section id="home" class="flex flex-col lg:flex-row items-center justify-between min-h-screen px-8">
+                <!-- Text Content -->
+                <div class="w-full lg:w-1/2 space-y-6">
+                    <div class="bg-[#243E36] inline-block px-3 py-1 rounded">
+                        <span class="text-white text-sm">Yogesh Bapusaheb Kadam</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-[#243E36]">
+                        I'm <span class="typedText text-[#7CA982]"></span>
+                    </h1>
+                    <p class="text-[#243E36]">
+                        Web Developer with experience in HTML, CSS, JavaScript, and Zoho tools. Skilled in developing and designing websites using modern web technologies.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="btn bg-[#7CA982] text-white px-6 py-3 rounded-lg hover:bg-[#243E36] transition">Hire Me</a>
+                        <a href="assets/Yogesh_Kadam_CV.pdf" download class="btn bg-[#7CA982] text-white px-4 py-2 rounded-lg flex items-center hover:bg-[#243E36] transition">
+                            Download CV <i class="uil uil-file-alt ml-2"></i>
+                        </a>
+                    </div>
+                    <div class="flex space-x-6 mt-6">
+                        <a href="https://linkedin.com/in/yogeshkadam" target="_blank" rel="noopener noreferrer" class="text-[#243E36] hover:text-[#7CA982] transition text-2xl">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/yogeshkadam" target="_blank" rel="noopener noreferrer" class="text-[#243E36] hover:text-[#7CA982] transition text-2xl">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Image -->
+                <div class="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
+                    <div class="relative w-80 h-80 rounded-full overflow-hidden">
+                        <img src="assets/images/avatar.png" alt="Yogesh Kadam" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- About Section -->
+            <section id="about" class="py-16">
+                <div class="max-w-6xl mx-auto px-8">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-semibold text-[#243E36]">About Me</h2>
+                        <p class="text-[#7CA982] mt-2">Get to know more about me</p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center lg:space-x-12">
+                        <!-- About Info -->
+                        <div class="w-full lg:w-1/2 bg-white shadow-md rounded-lg p-8 mb-8 lg:mb-0">
+                            <h3 class="text-2xl font-semibold text-[#243E36] mb-4">My Introduction</h3>
+                            <p class="text-[#243E36] mb-6">
+                                Web Developer with experience in HTML, CSS, JavaScript, and Zoho tools. Proficient in working with web development frameworks and tools and experience in using Zoho platforms to integrate third-party applications.
+                            </p>
+                            <a href="assets/Yogesh_Kadam_CV.pdf" download class="btn bg-[#7CA982] text-white px-4 py-2 rounded-lg flex items-center hover:bg-[#243E36] transition">
+                                Download CV <i class="uil uil-import ml-2"></i>
+                            </a>
+                        </div>
+                        
+                        <!-- Skills -->
+                        <div class="w-full lg:w-1/2">
+                            <div class="bg-white shadow-md rounded-lg p-8">
+                                <h3 class="text-2xl font-semibold text-[#243E36] mb-4">Skills</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">HTML</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">CSS</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">JavaScript</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Python</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">React</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Node.js</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">SQL</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Azure</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Git</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Zoho Site</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Zoho SalesIQ</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Zoho ZBot</span>
+                                    <span class="bg-[#7CA982] text-white px-3 py-1 rounded-full text-sm">Canva</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Projects Section -->
+            <section id="projects" class="py-16 bg-[#F1F7ED]">
+                <div class="max-w-6xl mx-auto px-8">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-semibold text-[#243E36]">Projects</h2>
+                        <p class="text-[#7CA982] mt-2">Check out some of my recent works</p>
+                    </div>
+                    
+                    <!-- Search Bar -->
+                    <div class="mb-8">
+                        <input type="text" id="search-bar" placeholder="Search projects..." class="w-full p-3 border border-[#7CA982] rounded-lg focus:outline-none focus:border-[#243E36]">
+                    </div>
+                    
+                    <!-- Projects Container -->
+                    <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Projects will be injected here via JavaScript -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Section -->
+            <section id="contact" class="py-16">
+                <div class="max-w-6xl mx-auto px-8">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-semibold text-[#243E36]">Get in Touch</h2>
+                        <p class="text-[#7CA982] mt-2">Do you have a project in mind? Contact me here.</p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row lg:space-x-12">
+                        <!-- Contact Info -->
+                        <div class="w-full lg:w-1/2 bg-[#243E36] text-white p-8 rounded-lg shadow-md mb-8 lg:mb-0">
+                            <h3 class="text-2xl font-semibold mb-4">Find Me <i class="uil uil-corner-right-down"></i></h3>
+                            <p class="flex items-center mb-2"><i class="uil uil-envelope mr-2"></i>Email: <a href="mailto:ykadam1@hawk.iit.edu" class="ml-2 underline">ykadam1@hawk.iit.edu</a></p>
+                            <p class="flex items-center"><i class="uil uil-phone mr-2"></i>Tel: <a href="tel:+13129789696" class="ml-2 underline">312.978.9696</a></p>
+                        </div>
+                        
+                        <!-- Contact Form -->
+                        <div class="w-full lg:w-1/2 bg-white p-8 rounded-lg shadow-md">
+                            <form id="contact-form" method="POST" action="your_form_handler">
+                                <div class="space-y-4">
+                                    <div>
+                                        <label for="name" class="block text-[#243E36]">Name</label>
+                                        <input type="text" id="name" name="name" class="w-full p-3 border border-[#7CA982] rounded-lg focus:outline-none focus:border-[#243E36]" placeholder="Your Name" required>
+                                    </div>
+                                    <div>
+                                        <label for="email" class="block text-[#243E36]">Email</label>
+                                        <input type="email" id="email" name="email" class="w-full p-3 border border-[#7CA982] rounded-lg focus:outline-none focus:border-[#243E36]" placeholder="Your Email" required>
+                                    </div>
+                                    <div>
+                                        <label for="message" class="block text-[#243E36]">Message</label>
+                                        <textarea id="message" name="message" rows="5" class="w-full p-3 border border-[#7CA982] rounded-lg focus:outline-none focus:border-[#243E36]" placeholder="Your Message" required></textarea>
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn bg-[#7CA982] text-white px-6 py-3 rounded-lg flex items-center hover:bg-[#243E36] transition">
+                                            Send <i class="uil uil-message ml-2"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="bg-[#243E36] py-8">
+            <div class="max-w-6xl mx-auto px-8 text-center">
+                <div class="mb-4">
+                    <p class="text-xl font-semibold text-[#F1F7ED]">Yogesh Bapusaheb Kadam.</p>
+                </div>
+                <div class="mb-4">
+                    <ul class="flex justify-center space-x-6">
+                        <li><a href="#home" class="text-[#F1F7ED] hover:text-[#7CA982] transition">Home</a></li>
+                        <li><a href="#about" class="text-[#F1F7ED] hover:text-[#7CA982] transition">About</a></li>
+                        <li><a href="#projects" class="text-[#F1F7ED] hover:text-[#7CA982] transition">Projects</a></li>
+                        <li><a href="#contact" class="text-[#F1F7ED] hover:text-[#7CA982] transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex justify-center space-x-6 mb-4">
+                    <a href="https://linkedin.com/in/yogeshkadam" target="_blank" rel="noopener noreferrer" class="text-[#F1F7ED] hover:text-[#7CA982] transition text-2xl">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/yogeshkadam" target="_blank" rel="noopener noreferrer" class="text-[#F1F7ED] hover:text-[#7CA982] transition text-2xl">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+                <div>
+                    <p class="text-[#F1F7ED] text-sm">
+                        &copy; <a href="#home" class="underline">Yogesh Bapusaheb Kadam</a> - All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.16"></script>
+    
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
