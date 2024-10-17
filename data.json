@@ -1,0 +1,105 @@
+{
+    "projects": [
+      {
+        "title": "Semantic Enrichment for Text Summarization",
+        "description": "Developed an AI-driven system to improve the quality of text summarization for biomedical literature, focusing on extracting key insights while preserving semantic meaning for better knowledge representation in research papers.",
+        "icon": "uil uil-briefcase-alt"
+      },
+      {
+        "title": "AI-based Text Summarization",
+        "description": "Implemented an AI-powered tool that uses the PICO framework to summarize medical articles, helping researchers and clinicians quickly extract important information from lengthy medical texts.",
+        "icon": "uil uil-book-alt"
+      },
+      {
+        "title": "Farmer's Buddy",
+        "description": "Built a platform that provides personalized crop recommendations using AI, enabling farmers to make data-driven decisions based on soil type, weather, and crop suitability for better yield management.",
+        "icon": "uil uil-trees"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "Designed a personal portfolio website showcasing projects, skills, and achievements, built with responsive design principles to ensure optimal viewing across devices and enhance professional branding.",
+        "icon": "uil uil-user-circle"
+      },
+      {
+        "title": "E-commerce Platform",
+        "description": "Developed a full-stack e-commerce platform featuring secure user authentication, shopping cart functionality, and payment gateway integration for a seamless online shopping experience.",
+        "icon": "uil uil-shopping-cart-alt"
+      },
+      {
+        "title": "Chat Application",
+        "description": "Created a real-time chat application using Socket.io and Node.js, allowing users to engage in instant messaging with features like rooms and live updates for interactive communication.",
+        "icon": "uil uil-comment-alt-dots"
+      },
+      {
+        "title": "Weather App",
+        "description": "Designed a responsive web app that provides real-time weather updates, with intuitive user interfaces and location-based services to offer accurate weather data for any region.",
+        "icon": "uil uil-sun"
+      },
+      {
+        "title": "Task Manager",
+        "description": "Developed a web-based task management tool with drag-and-drop features, enabling users to organize tasks efficiently and track progress with a modern and easy-to-use interface.",
+        "icon": "uil uil-clipboard-alt"
+      },
+      {
+        "title": "Blog Platform",
+        "description": "Built a fully functional blogging platform with rich text editing, user authentication, and content management features, enabling users to create, edit, and publish blogs with ease.",
+        "icon": "uil uil-edit"
+      },
+      {
+        "title": "Fitness Tracker",
+        "description": "Created a mobile-responsive web app to track fitness activities, set goals, and monitor progress over time, featuring user-friendly interfaces and personalized fitness recommendations.",
+        "icon": "uil uil-heart"
+      },
+      {
+        "title": "Recipe Finder",
+        "description": "Developed a recipe search platform that allows users to search for and save their favorite recipes with user-friendly navigation and filtering options for customized meal planning.",
+        "icon": "uil uil-utensils-alt"
+      },
+      {
+        "title": "Travel Planner",
+        "description": "Built a travel planning tool with itinerary management, hotel and flight booking integration, and trip scheduling features, providing users with a streamlined way to organize and manage trips.",
+        "icon": "uil uil-plane"
+      },
+      {
+        "title": "Photo Gallery",
+        "description": "Created an interactive photo gallery featuring filtering, lightbox effects, and responsive design, allowing users to view and navigate through photo collections with enhanced visual experiences.",
+        "icon": "uil uil-image"
+      },
+      {
+        "title": "Expense Tracker",
+        "description": "Developed a budget management tool to help users track expenses, categorize spending, and generate financial reports for more effective budgeting and financial planning.",
+        "icon": "uil uil-wallet"
+      },
+      {
+        "title": "Language Learning App",
+        "description": "Built a web app to help users learn new languages with interactive lessons, quizzes, and progress tracking, enhancing the language learning process with engaging and personalized content.",
+        "icon": "uil uil-language"
+      },
+      {
+        "title": "Virtual Reality Tour",
+        "description": "Designed a virtual reality tour system for real estate, offering immersive 3D experiences to potential buyers, enabling them to explore properties from the comfort of their homes.",
+        "icon": "uil uil-eye"
+      },
+      {
+        "title": "Music Player",
+        "description": "Developed a responsive web-based music player featuring playlist management, song search functionalities, and sleek UI/UX, allowing users to enjoy music seamlessly across devices.",
+        "icon": "uil uil-music"
+      },
+      {
+        "title": "Stock Market Tracker",
+        "description": "Created a real-time stock market tracker to monitor indices, stock prices, and trends, providing users with data visualization tools and personalized alerts for informed investment decisions.",
+        "icon": "uil uil-chart-growth"
+      },
+      {
+        "title": "Event Scheduler",
+        "description": "Built an event scheduling tool with calendar integrations, allowing users to organize and track events efficiently with reminders, invitations, and real-time updates.",
+        "icon": "uil uil-calendar-alt"
+      },
+      {
+        "title": "Chatbot Integration",
+        "description": "Implemented intelligent chatbot systems into websites to enhance user interactions with automated responses, improving customer engagement and providing instant support.",
+        "icon": "uil uil-robot"
+      }
+    ]
+  }
+  

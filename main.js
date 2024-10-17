@@ -1,6 +1,4 @@
-// assets/js/main.js
 
-// Toggle Mobile Menu
 const menuBtn = document.getElementById('menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 
@@ -10,7 +8,6 @@ menuBtn.addEventListener('click', () => {
     menuBtn.querySelector('i').classList.toggle('uil-times');
 });
 
-// Add Shadow to Navbar on Scroll
 window.addEventListener('scroll', () => {
     const navHeader = document.getElementById('header');
     if (window.scrollY > 50) {
@@ -21,32 +18,14 @@ window.addEventListener('scroll', () => {
         navHeader.classList.add('h-24');
     }
 });
-
-// Typing Effect Initialization
 var typingEffect = new Typed(".typedText", {
-    strings: ["Web Developer", "Designer", "Developer"],
+    strings: ["a Web Developer", "a Designer", "a Cloud Enthusiast"],
     loop: true,
     typeSpeed: 100, 
     backSpeed: 80,
     backDelay: 2000
 });
 
-// ScrollReveal Animations
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2000,
-    reset: false
-});
-
-sr.reveal('.bg-[#243E36]', { delay: 200 });
-sr.reveal('.text-2xl', { delay: 300 });
-sr.reveal('.text-4xl', { delay: 400 });
-sr.reveal('.text-3xl', { delay: 500 });
-sr.reveal('.btn', { delay: 600 });
-sr.reveal('.text-2xl', { delay: 700 });
-
-// Active Link Switching on Scroll
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-link');
 
@@ -75,10 +54,7 @@ function scrollActive() {
     });
 }
 
-window.addEventListener('scroll', scrollActive);
-
-// Fetch and Display Projects from JSON
-fetch('assets/projects.json')
+fetch('data.json')
     .then(response => response.json())
     .then(data => {
         const projectsContainer = document.getElementById('projects-container');
@@ -92,7 +68,7 @@ fetch('assets/projects.json')
             }
             projects.forEach(project => {
                 const projectCard = document.createElement('div');
-                projectCard.className = 'bg-white shadow-md rounded-lg p-6 flex flex-col items-center text-center hover:bg-[#7CA982] transition duration-300 h-80'; // Fixed height for uniformity
+                projectCard.className = 'bg-white shadow-md rounded-lg p-6 flex flex-col items-center text-center hover:bg-[#7CA982] transition duration-300 h-80'; 
                 projectCard.innerHTML = `
                     <i class="${project.icon} text-4xl mb-4 text-[#7CA982] hover:text-white transition"></i>
                     <h3 class="text-xl font-semibold text-[#243E36] hover:text-white transition">${project.title}</h3>
@@ -102,10 +78,10 @@ fetch('assets/projects.json')
             });
         }
 
-        // Initial Display
+        
         displayProjects(data.projects);
 
-        // Search Functionality
+      
         searchBar.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase();
             const filteredProjects = data.projects.filter(project => 
