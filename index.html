@@ -11,16 +11,15 @@
 
 <body class="bg-[#F1F7ED] font-poppins">
     <div class="container mx-auto relative">
-        <!-- Header -->
+       
         <nav id="header" class="fixed top-0 left-0 w-full bg-[#F1F7ED] shadow-md transition-all duration-300 z-50">
             <div class="flex justify-between items-center h-24 px-8">
-                <!-- Logo -->
+             
                 <div class="relative">
                     <p class="text-2xl font-semibold text-[#7CA982]">YK - &#128187;</p>
                     <span class="absolute -top-4 -right-5 text-5xl text-[#243E36]">.</span>
                 </div>
                 
-                <!-- Navigation Menu -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Home</a>
                     <a href="#about" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">About</a>
@@ -28,14 +27,12 @@
                     <a href="#contact" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Contact</a>
                 </div>
                 
-                <!-- Download CV Button -->
                 <div class="hidden md:block">
                     <a href="assets/Yogesh Kadam CV.pdf" download class="btn bg-[#7CA982] text-white px-4 py-2 rounded-lg flex items-center hover:bg-[#243E36] transition">
                         Download CV <i class="uil uil-file-alt ml-2"></i>
                     </a>
                 </div>
                 
-                <!-- Mobile Menu Button -->
                 <div class="md:hidden">
                     <button id="menu-btn" class="text-3xl text-[#243E36] focus:outline-none">
                         <i class="uil uil-bars"></i>
@@ -43,7 +40,7 @@
                 </div>
             </div>
             
-            <!-- Mobile Menu -->
+     
             <div id="mobile-menu" class="hidden flex-col items-center space-y-6 bg-[#F1F7ED] shadow-md py-6">
                 <a href="#home" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">Home</a>
                 <a href="#about" class="nav-link text-[#243E36] font-medium hover:text-[#7CA982]">About</a>
@@ -55,11 +52,11 @@
             </div>
         </nav>
         
-        <!-- Main Content -->
+      
         <main class="pt-24">
-            <!-- Featured Section -->
+      
             <section id="home" class="flex flex-col lg:flex-row items-center justify-between min-h-screen px-8">
-                <!-- Text Content -->
+            
                 <div class="w-full lg:w-1/2 space-y-6">
                     <div class="bg-[#243E36] inline-block px-3 py-1 rounded">
                         <span class="text-white text-sm">Yogesh Bapusaheb Kadam</span>
@@ -86,7 +83,6 @@
                     </div>
                 </div>
                 
-                <!-- Image -->
                 <div class="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
                     <div class="relative w-80 h-80 rounded-full overflow-hidden">
                         <img src="assets/favicon.png" alt="Yogesh Kadam" class="w-full h-full object-cover">
@@ -94,7 +90,7 @@
                 </div>
             </section>
             
-            <!-- About Section -->
+      
             <section id="about" class="py-16">
                 <div class="max-w-6xl mx-auto px-8">
                     <div class="text-center mb-12">
@@ -102,7 +98,7 @@
                         <p class="text-[#7CA982] mt-2">Get to know more about me</p>
                     </div>
                     <div class="flex flex-col lg:flex-row items-center lg:space-x-12">
-                        <!-- About Info -->
+                    
                         <div class="w-full lg:w-1/2 bg-white shadow-md rounded-lg p-8 mb-8 lg:mb-0">
                             <h3 class="text-2xl font-semibold text-[#243E36] mb-4">My Introduction</h3>
                             <p class="text-[#243E36] mb-6">
@@ -113,7 +109,7 @@
                             </a>
                         </div>
                         
-                        <!-- Skills -->
+                
                         <div class="w-full lg:w-1/2">
                             <div class="bg-white shadow-md rounded-lg p-8">
                                 <h3 class="text-2xl font-semibold text-[#243E36] mb-4">Skills</h3>
@@ -138,28 +134,20 @@
                     </div>
                 </div>
             </section>
-            
-            <!-- Projects Section -->
             <section id="projects" class="py-16 bg-[#F1F7ED]">
                 <div class="max-w-6xl mx-auto px-8">
                     <div class="text-center mb-12">
                         <h2 class="text-3xl font-semibold text-[#243E36]">Projects</h2>
                         <p class="text-[#7CA982] mt-2">Check out some of my recent works</p>
                     </div>
-                    
-                    <!-- Search Bar -->
                     <div class="mb-8">
                         <input type="text" id="search-bar" placeholder="Search projects..." class="w-full p-3 border border-[#7CA982] rounded-lg focus:outline-none focus:border-[#243E36]">
                     </div>
-                    
-                    <!-- Projects Container -->
                     <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <!-- Projects will be injected here via JavaScript -->
+                    
                     </div>
                 </div>
             </section>
-            
-            <!-- Contact Section -->
             <section id="contact" class="py-16">
                 <div class="max-w-6xl mx-auto px-8">
                     <div class="text-center mb-12">
@@ -167,7 +155,7 @@
                         <p class="text-[#7CA982] mt-2">Do you have a project in mind? Contact me here.</p>
                     </div>
                     <div class="flex flex-col lg:flex-row lg:space-x-12">
-                        <!-- Contact Info -->
+                      
                         <div class="w-full lg:w-1/2 bg-[#243E36] text-white p-8 rounded-lg shadow-md mb-8 lg:mb-0">
                             <h3 class="text-2xl font-semibold mb-4">Find Me <i class="uil uil-corner-right-down"></i></h3>
                             <p class="flex items-center mb-2"><i class="uil uil-envelope mr-2"></i>Email: <a href="mailto:ykadam1@hawk.iit.edu" class="ml-2 underline">ykadam1@hawk.iit.edu</a></p>
@@ -175,7 +163,7 @@
                             <p class="flex items-center "> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5945.389427793741!2d-87.61377080000001!3d41.83487150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2bf35733a0cf%3A0xed35cc6833509904!2sLake%20Meadows%2C%20Chicago%2C%20IL%2060616!5e0!3m2!1sen!2sus!4v1729193238757!5m2!1sen!2sus" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
                         </div>
                         
-                        <!-- Contact Form -->
+                    
                         <div class="w-full lg:w-1/2 bg-white p-8 rounded-lg shadow-md">
                             <form id="contact-form" method="POST" action="your_form_handler">
                                 <div class="space-y-4">
@@ -204,7 +192,7 @@
             </section>
         </main>
         
-        <!-- Footer -->
+        
         <footer class="bg-[#F1F7ED] py-8">
             <div class="max-w-full mx-auto px-8 text-center">
                 <div class="mb-4">
