@@ -128,7 +128,7 @@ You can also review the source code here:
 
 ---
 
-Feel free to explore the project and contribute if you'd like! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+Feel free to explore the project! If you have any suggestions or improvements.
 
 ---
 ## License
