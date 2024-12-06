@@ -92,3 +92,27 @@ fetch('data.json')
         });
     })
     .catch(error => console.error('Error fetching projects:', error));
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        
+        emailjs.init('UfWtgRVNiyloyQdAC'); // Replace with your EmailJS User ID
+        
+        // Retrieve form data
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+    
+        // Send the email
+        emailjs.send('service_x7kxdbe', 'template_91aeadf', {
+            name: name,
+            email: email,
+            message: message
+        })
+        .then(function(response) {
+            alert('Message sent successfully!');
+        }, function(error) {
+            alert('Failed to send message, please try again later.');
+            console.error('Error:', error);
+        });
+    });
